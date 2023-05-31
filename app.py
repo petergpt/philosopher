@@ -7,8 +7,8 @@ from philosophers import PHILOSOPHERS
 from funlosophers import FUNLOSOPHERS
 
 def main():
-    st.set_page_config(page_title="Philosophical Chatbot")
-    st.title("Ask AI Philosopher")
+    st.set_page_config(page_title="AI Philosopher")
+    st.title("AI Philosopher - Ask Any Question")
 
     philosophers_list = list(PHILOSOPHERS.keys())
     funlosophers_list = list(FUNLOSOPHERS.keys())
