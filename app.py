@@ -36,9 +36,12 @@ def main():
         selected_philosopher = ""
         thought_process = []
 
-    user_question = st.text_input("Type your question here:")
-
-    if st.button("Ask the Question") and selected_philosopher:
+    with st.form(key="ask_the_question_form"):
+        user_question = st.text_input("Type your question here:")
+    
+        submit_button = st.form_submit_button("Ask the Question")
+    
+    if submit_button and selected_philosopher:
         with st.spinner("Progressing... Please wait"):
             api_response, final_answer = send_question_to_api(selected_philosopher, thought_process, user_question)
 
