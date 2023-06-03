@@ -13,15 +13,15 @@ from methods.scientists import SCIENTISTS
 from methods.reasoning import REASONING
 
 def main():
-    st.set_page_config(page_title="AI Philosopher")
-    st.title("AI Philosopher - Ask Any Question")
+    st.set_page_config(page_title="Reason with AI")
+    st.title("Reason with AI - Ask Any Question")
 
     philosophers_list = list(PHILOSOPHERS.keys())
     funlosophers_list = list(FUNLOSOPHERS.keys())
     scientists_list = list(SCIENTISTS.keys())
     reasoning_list = list(REASONING.keys())
 
-    st.subheader("Choose a Philosopher, Funlosopher, Scientist, or Reasoning")
+    st.subheader("Choose a Philosopher, Funlosopher, Scientist or a Reasoning Method")
     option = st.radio("", ['Philosopher', 'Funlosopher', 'Scientist', 'Reasoning'])
 
     if option == 'Philosopher':
@@ -49,14 +49,18 @@ def main():
         with st.spinner("Progressing... Please wait"):
             api_response, final_answer = send_question_to_api(selected_philosopher, thought_process, user_question)
 
-        st.subheader("Final Answer")
-        st.write(final_answer)
+        answer_col, copy_col = st.columns([2, 1])
+
+        with answer_col:
+            st.subheader("Final Answer")
+            st.write(final_answer)
+
+        with copy_col:
+            st.write("")
+            st.write("""<button onclick="navigator.clipboard.writeText('""" + final_answer.replace("'", r"\'").replace('\n','\\n') + """')">Copy to Clipboard</button>""", unsafe_allow_html=True)
 
         st.subheader(f"{selected_philosopher}'s Thought Process")
         st.write(api_response)
-
-        st.markdown('<style>body { white-space: pre-wrap; }</style>', unsafe_allow_html=True)
-        st.write("""<button onclick="navigator.clipboard.writeText('""" + final_answer.replace("'", r"\'").replace('\n','\\n') + """')">Copy Answer to Clipboard</button>""", unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
