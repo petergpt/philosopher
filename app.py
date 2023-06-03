@@ -49,18 +49,35 @@ def main():
         with st.spinner("Progressing... Please wait"):
             api_response, final_answer = send_question_to_api(selected_philosopher, thought_process, user_question)
 
-        answer_col, copy_col = st.columns([2, 1])
+        columns = st.beta_columns([2, 1])
 
-        with answer_col:
+        with columns[0]:
             st.subheader("Final Answer")
             st.write(final_answer)
 
-        with copy_col:
-            st.write("")
-            st.write("""<button onclick="navigator.clipboard.writeText('""" + final_answer.replace("'", r"\'").replace('\n','\\n') + """')">Copy to Clipboard</button>""", unsafe_allow_html=True)
+        with columns[1]:
+            st.write("")  # Empty space to align the button with the title
+            st.write("""
+            <script>
+                function copyTextToClipboard(text) {
+                    var txtArea = document.createElement("textarea");
+                    txtArea.id = 'txt';
+                    txtArea.value = text;
+                    document.body.appendChild(txtArea);
+                    txtArea.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(txtArea);
+                    document.getElementById('infoText').innerHTML = 'Copied!';
+                }
+            </script>
+            """, unsafe_allow_html=True)
+            copy_button = f"""<button onclick="copyTextToClipboard('{final_answer.replace("'", r"&#x27;").replace('\n', '\\n')}')">Copy to Clipboard</button>"""
+            copied_info = """<p id="infoText" style="font-size:small;"></p>"""
+            st.write(copy_button, unsafe_allow_html=True)
+            st.write(copied_info, unsafe_allow_html=True)
 
         st.subheader(f"{selected_philosopher}'s Thought Process")
         st.write(api_response)
-
+      
 if __name__ == "__main__":
     main()
