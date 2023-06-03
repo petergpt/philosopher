@@ -22,6 +22,7 @@ def main():
     reasoning_list = list(REASONING.keys())
 
     st.subheader("Choose a Philosopher, Funlosopher, Scientist, or Reasoning")
+    
     option = st.radio("", ['Philosopher', 'Funlosopher', 'Scientist', 'Reasoning'])
 
     thought_process = None
@@ -30,19 +31,27 @@ def main():
     if option == 'Philosopher':
         selected_philosopher = st.selectbox("Select a Philosopher", philosophers_list)
         thought_process = PHILOSOPHERS.get(selected_philosopher, [])
+        approach_description = thought_process['Approach'] if thought_process else ""
     elif option == 'Funlosopher':
         selected_philosopher = st.selectbox("Select a Funlosopher", funlosophers_list)
         thought_process = FUNLOSOPHERS.get(selected_philosopher, [])
+        approach_description = thought_process['Approach'] if thought_process else ""
     elif option == 'Scientist':
         selected_philosopher = st.selectbox("Select a Scientist", scientists_list)
         thought_process = SCIENTISTS.get(selected_philosopher, [])
+        approach_description = thought_process['Approach'] if thought_process else ""
     elif option == 'Reasoning':
         selected_philosopher = st.selectbox("Select a Reasoning", reasoning_list)
         thought_process = REASONING.get(selected_philosopher, [])
-        approach_description = ""  # Set an empty approach_description for the 'Reasoning' option
+        approach_description = thought_process[0]['Approach'] if thought_process else ""
     else:
         selected_philosopher = ""
         thought_process = []
+
+    # Display the "Approach" paragraph
+    if approach_description:
+        st.subheader(f"{selected_philosopher}'s Approach")
+        st.write(approach_description)
 
     with st.form(key="ask_the_question_form"):
         user_question = st.text_input("Type your question here:")
@@ -50,10 +59,6 @@ def main():
         submit_button = st.form_submit_button("Ask the Question")
 
     if submit_button and selected_philosopher:
-        # Display the "Approach" paragraph
-        st.subheader(f"{selected_philosopher}'s Approach")
-        st.write(approach_description)
-
         with st.spinner("Progressing... Please wait"):
             api_response, final_answer = send_question_to_api(selected_philosopher, thought_process, user_question)
 
