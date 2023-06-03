@@ -71,7 +71,8 @@ def main():
                 }
             </script>
             """, unsafe_allow_html=True)
-            copy_button = f"""<button onclick="copyTextToClipboard('{final_answer.replace("'", r"&#x27;").replace('\n', '\\n')}')">Copy to Clipboard</button>"""
+            escaped_final_answer = final_answer.replace("'", r"&#x27;").replace('\n', '\\n')
+            copy_button = f"""<button onclick="copyTextToClipboard('{escaped_final_answer}')">Copy to Clipboard</button>"""
             copied_info = """<p id="infoText" style="font-size:small;"></p>"""
             st.write(copy_button, unsafe_allow_html=True)
             st.write(copied_info, unsafe_allow_html=True)
