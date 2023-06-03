@@ -1,171 +1,137 @@
-Socratic_Method = {
-    "Approach": "The Socratic Method involves a disciplined and thoughtful dialogue that uses questioning to stimulate critical thinking and illuminate ideas.",
+socratic_method = {
+    "Approach": "The Socratic Method, inspired by Socrates, stimulates critical thinking through cooperative argumentative dialogue based on asking and answering questions.",
     "Steps": [
-        {"1 - Identify the Claim": "Start by identifying the statement or belief that is being examined."},
-        {"2 - Seek Definitions or Clarification": "Ask for definitions or clarifications for terms and concepts in the claim."},
-        {"3 - Question the Claim": "Question the initial claim from various angles, encouraging a deeper thinking process."},
-        {"4 - Hypothetical Instances": "Create hypothetical instances to test the limits of the claim and its implications."},
-        {"5 - Expose Contradictions": "Through this rigorous questioning, expose any contradictions or inconsistencies within the claim."},
-        {"6 - Review the Dialogue": "Reflect on the conversation and what was learned about the claim."},
-        {"7 - Conclude": "Arrive at a more refined and nuanced understanding of the claim, or determine that more inquiry is necessary."}
+        {"1 - Identify the Statement": "Find the statement that is the focus of the discussion or problem."},
+        {"2 - Request Clarification": "Ask for clarification or definitions about parts of the statement that may be ambiguous."},
+        {"3 - Identify a Belief Contrary to the Statement": "Find a belief or an assertion that conflicts with the original statement."},
+        {"4 - Ask for Justification": "Ask for reasons, evidence, or justification for both the original statement and the opposing belief."},
+        {"5 - Question the Justification": "Use probing questions to test the strength and consistency of the justification provided."},
+        {"6 - Understand the Implications": "Consider the implications of the justification for the original statement and opposing belief."},
+        {"7 - Reflect and Synthesize": "Reflect on the answers and the implications, synthesizing new insights."},
+        {"8 - Conclude": "Conclude the inquiry, either by refining the original statement, replacing it, or continuing to question it."}
     ]
 }
 
-Platonism = {
-    "Approach": "Platonism seeks to recognize and understand the eternal, unchanging 'forms' or 'ideas' of which the physical world is a mere imitation.",
+
+platonic_approach = {
+    "Approach": "Plato's philosophy focuses on the pursuit of knowledge through dialectic and the understanding of Forms or Ideas as the real reality.",
     "Steps": [
-        {"1 - Identify the Idea": "Identify the essential 'idea' or 'form' underlying the topic of interest."},
-        {"2 - Understand the Ideal": "Explore the characteristics, properties, and nature of this ideal form."},
-        {"3 - Analyze the Physical World": "Examine the physical world, including its objects and experiences, and compare them to the identified ideal."},
-        {"4 - Discern the Differences": "Highlight the differences between the ideal form and its physical imitation."},
-        {"5 - Philosophical Reflection": "Contemplate on the nature of reality, considering the ideal versus the imitation."},
-        {"6 - Conclude": "Formulate conclusions about the nature of reality, and the role of ideal forms therein."}
+        {"1 - Identify the Physical Object or Concept": "Find the object or concept that is the focus of the discussion or problem."},
+        {"2 - Question the Perception": "Question the perceived reality of the object or concept."},
+        {"3 - Identify the Form": "Identify the Form or Idea that the object or concept represents."},
+        {"4 - Analyze the Form": "Analyze the Form, its characteristics, and its implications."},
+        {"5 - Reflect on the Relation": "Reflect on the relationship between the Form and its physical representation."},
+        {"6 - Conclude": "Conclude the inquiry, either by gaining deeper knowledge about the Form, or by identifying new Forms or relationships."}
     ]
 }
 
-Aristotelianism = {
-    "Approach": "Aristotelianism is centered around empirical observation, logical reasoning, and the understanding of cause and effect.",
+
+aristotelian_approach = {
+    "Approach": "Aristotle's philosophy involves systematic observation and logical categorization and deduction.",
     "Steps": [
-        {"1 - Observe": "Start by observing the world or the specific phenomenon in question."},
-        {"2 - Categorize": "Classify what you've observed into Aristotle's 'categories', such as substance, quantity, quality, and relation."},
-        {"3 - Identify Causes": "Identify the 'four causes' of the phenomenon - material, formal, efficient, and final."},
-        {"4 - Apply Logic": "Use Aristotelian logic (syllogisms) to analyze the phenomenon."},
-        {"5 - Review the Evidence": "Reflect on your observations, classifications, and logical deductions."},
-        {"6 - Conclude": "Formulate conclusions about the phenomenon, based on your empirical observations and logical reasoning."}
-    ]
-}
-Confucianism = {
-    "Approach": "Confucianism emphasizes personal and governmental morality, correctness of social relationships, justice, and sincerity.",
-    "Steps": [
-        {"1 - Identify Relationships": "Determine the various social relationships at play within the context of the problem."},
-        {"2 - Define Roles": "Define the roles and responsibilities within these relationships."},
-        {"3 - Analyze Dynamics": "Analyze the dynamics of these relationships and their influence on the problem."},
-        {"4 - Apply Virtue": "Consider how virtues such as kindness, righteousness, propriety, wisdom, and faithfulness can be applied to improve these dynamics."},
-        {"5 - Evaluate Consequences": "Evaluate the potential effects of aligning actions and attitudes with these virtues."},
-        {"6 - Conclude": "Decide on the best course of action based on these evaluations, always striving to achieve harmony and moral uprightness."}
+        {"1 - Observe": "Observe the phenomenon or concept that is the focus of the discussion or problem."},
+        {"2 - Gather Data": "Collect data or information about the phenomenon or concept."},
+        {"3 - Categorize": "Categorize the phenomenon or concept based on its characteristics."},
+        {"4 - Deduce": "Use logical deduction to understand the implications of the categorization."},
+        {"5 - Reflect": "Reflect on the conclusions drawn from the deduction."},
+        {"6 - Conclude": "Conclude the inquiry, either by confirming, refining, or rejecting the initial categorization."}
     ]
 }
 
-Taoism = {
-    "Approach": "Taoism advocates for living in harmony with the 'Tao' (the Way), which is the natural order of the universe.",
+confucian_approach = {
+    "Approach": "Confucian philosophy promotes moral uprightness, respect for tradition, and maintaining proper relationships.",
     "Steps": [
-        {"1 - Recognize the Tao": "Identify the natural flow or order in the context of the problem."},
-        {"2 - Discern Disharmony": "Pinpoint any elements or actions that are disrupting this natural order."},
-        {"3 - Consider Wu Wei": "Consider the principle of 'wu wei' (non-action or effortless action) and how it might apply to the problem."},
-        {"4 - Evaluate Actions": "Evaluate the potential actions and their alignment with the Tao."},
-        {"5 - Embrace Simplicity": "Contemplate on simplicity, patience, and compassion, and how these principles can be applied to the situation."},
-        {"6 - Conclude": "Formulate an approach that most closely aligns with the Tao and promotes harmony and balance."}
+        {"1 - Identify the Problem": "Identify the moral or social issue that is the focus of the discussion."},
+        {"2 - Consider Tradition": "Consider what tradition and established norms have to say about the issue."},
+        {"3 - Evaluate Relationships": "Evaluate how the issue affects relationships and social harmony."},
+        {"4 - Apply Virtues": "Apply the virtues of benevolence, righteousness, propriety, wisdom, and faithfulness to the issue."},
+        {"5 - Reflect": "Reflect on the balance between tradition, relationships, and virtue in the issue."},
+        {"6 - Conclude": "Conclude the inquiry, either by resolving the issue, refining your understanding, or identifying areas for further inquiry."}
     ]
 }
 
-Epicureanism = {
-    "Approach": "Epicureanism promotes the pursuit of pleasure and avoidance of pain as the ultimate goal of life.",
+kantian_approach = {
+    "Approach": "Kant's philosophy proposes a method of epistemology that blends rationalist and empiricist traditions. It emphasizes the importance of duty and respect for moral law.",
     "Steps": [
-        {"1 - Identify Desires": "Identify the desires or wants associated with the problem."},
-        {"2 - Categorize Desires": "Classify these desires as either natural (necessary, unnecessary) or vain."},
-        {"3 - Assess Potential Pleasure and Pain": "Assess the potential for pleasure or pain in fulfilling each desire."},
-        {"4 - Consider Long-term Effects": "Consider the long-term effects of pursuing each desire."},
-        {"5 - Prioritize Pleasure": "Prioritize actions that maximize long-term pleasure and minimize pain."},
-        {"6 - Conclude": "Decide on the course of action that best leads to a tranquil and pleasurable life."}
+        {"1 - Identify the Issue": "Identify the moral or epistemological issue that is the focus of the discussion."},
+        {"2 - Apply the Categorical Imperative": "Apply the categorical imperative to the issue, considering what would happen if everyone acted in the same way."},
+        {"3 - Evaluate Duty": "Evaluate your duty or obligations in relation to the issue."},
+        {"4 - Assess Rationality": "Assess the rationality of the action or belief in question."},
+        {"5 - Reflect": "Reflect on the moral law and its implications for the issue."},
+        {"6 - Conclude": "Conclude the inquiry, either by resolving the issue, refining your understanding, or identifying areas for further inquiry."}
     ]
 }
 
-Stoicism = {
-    "Approach": "Stoicism teaches self-control and resilience as means to overcome destructive emotions.",
+descartes_approach = {
+    "Approach": "Descartes' methodical skepticism involves doubting all beliefs to arrive at certain knowledge.",
     "Steps": [
-        {"1 - Identify Emotions": "Identify the emotions or passions at play in the situation."},
-        {"2 - Evaluate Control": "Evaluate what aspects of the situation are within your control and which are not."},
-        {"3 - Practice Acceptance": "Practice acceptance of those elements beyond your control."},
-        {"4 - Cultivate Virtue": "Cultivate the four cardinal virtues of wisdom, courage, justice, and temperance."},
-        {"5 - Apply Reason": "Apply reason to overcome destructive emotions and maintain a sense of tranquility."},
-        {"6 - Conclude": "Decide on a course of action that is in alignment with virtue and reason, irrespective of the outcome."}
+        {"1 - Doubt": "Doubt all beliefs about the issue or problem."},
+        {"2 - Analyze": "Analyze the beliefs to understand why they are doubted."},
+        {"3 - Evaluate Certainty": "Evaluate whether any beliefs can be known with certainty."},
+        {"4 - Apply Cogito": "Apply 'Cogito, ergo sum' ('I think, therefore I am') to establish self-existence as a certainty."},
+        {"5 - Build Knowledge": "Build up knowledge from this point of certainty."},
+        {"6 - Conclude": "Conclude the inquiry, either by establishing certain knowledge, identifying beliefs still in doubt, or resolving to continue the process of doubt and analysis."}
     ]
 }
 
-Neoplatonism = {
-    "Approach": "Neoplatonism posits that all existence emanates from a single principle, 'the One'.",
+humean_approach = {
+    "Approach": "Hume's empiricist approach emphasizes that knowledge comes primarily from sensory experience. It also questions the validity of inductive reasoning.",
     "Steps": [
-        {"1 - Identify the One": "Identify the universal principle or the 'One' at play."},
-        {"2 - Understand Emanation": "Consider how the situation or problem has emanated from the 'One'."},
-        {"3 - Trace Back to the One": "Trace the problem or situation back to its source in the 'One'."},
-        {"4 - Reflect on the Soul": "Reflect on the role of the soul and its journey towards the 'One'."},
-        {"5 - Analyze the Physical vs. Spiritual": "Analyze the situation in terms of the physical world vs. the spiritual reality."},
-        {"6 - Conclude": "Formulate an understanding or solution that aligns with the universal principle of the 'One'."}
+        {"1 - Observe": "Observe the issue or concept that is the focus of the discussion."},
+        {"2 - Gather Sensory Experience": "Collect sensory data or experiences related to the issue."},
+        {"3 - Analyze Impressions and Ideas": "Analyze the impressions (direct sensory experiences) and ideas (recollections or imaginings) related to the issue."},
+        {"4 - Evaluate Cause and Effect": "Evaluate beliefs about cause and effect, considering whether they are based on valid inference from sensory experience."},
+        {"5 - Reflect": "Reflect on the relationship between sensory experience, belief, and knowledge."},
+        {"6 - Conclude": "Conclude the inquiry, either by affirming, revising, or rejecting beliefs based on sensory experience and reflection."}
     ]
 }
 
-Augustinianism = {
-    "Approach": "Augustinianism synthesizes Christian doctrine with Neoplatonism, focusing on divine grace and the nature of evil.",
+nietzschean_approach = {
+    "Approach": "Nietzsche's philosophy emphasizes the affirmation of life, the will to power, and the importance of individuality and creativity.",
     "Steps": [
-        {"1 - Identify the Divine": "Identify the role of divine grace or providence within the context of the problem."},
-        {"2 - Consider Free Will": "Consider the role of human free will and its consequences."},
-        {"3 - Analyze Good vs. Evil": "Analyze the elements of good and evil present in the situation."},
-        {"4 - Evaluate Ethical Implications": "Evaluate the ethical implications of possible actions."},
-        {"5 - Reflect on Spiritual Aspects": "Reflect on the spiritual aspects of the problem, in light of God's divine plan."},
-        {"6 - Conclude": "Formulate an approach that aligns with divine grace and leads to a greater understanding of God."}
+        {"1 - Identify the Issue": "Identify the issue or concept that is the focus of the discussion."},
+        {"2 - Question Values": "Question traditional values and beliefs related to the issue."},
+        {"3 - Evaluate the Will to Power": "Evaluate how the 'will to power' - the drive for freedom, individuality, and creativity - relates to the issue."},
+        {"4 - Affirm Life": "Consider how the issue relates to the affirmation of life and the embrace of suffering."},
+        {"5 - Reflect": "Reflect on the balance between traditional values, the will to power, and the affirmation of life in relation to the issue."},
+        {"6 - Conclude": "Conclude the inquiry, either by affirming, revising, or rejecting beliefs in light of Nietzschean values."}
     ]
 }
 
-Thomism = {
-    "Approach": "Thomism combines Christian doctrine with Aristotelian philosophy, with a focus on natural law and the harmony of faith and reason.",
+lockean_approach = {
+    "Approach": "Locke's empiricist philosophy focuses on the role of experience in the formation of knowledge and the social contract theory in politics.",
     "Steps": [
-        {"1 - Identify Natural Law": "Identify the natural law or order at play in the situation."},
-        {"2 - Analyze Reason": "Use reason to understand the nature of the problem and potential solutions."},
-        {"3 - Consider Faith": "Consider how faith and divine revelation can inform your understanding of the situation."},
-        {"4 - Synthesize Faith and Reason": "Synthesize insights gained from both faith and reason."},
-        {"5 - Evaluate Ethical Implications": "Evaluate the ethical implications of potential actions based on natural law and divine law."},
-        {"6 - Conclude": "Decide on a course of action that aligns with both natural law and divine revelation."}
+        {"1 - Observe": "Observe the issue or concept that is the focus of the discussion."},
+        {"2 - Gather Experience": "Collect experiences and observations related to the issue."},
+        {"3 - Analyze Ideas": "Analyze the ideas formed from these experiences."},
+        {"4 - Evaluate Rights and Government": "In political issues, evaluate the rights of individuals and the role of government based on the social contract theory."},
+        {"5 - Reflect": "Reflect on the relationship between experience, knowledge, and (if applicable) political authority."},
+        {"6 - Conclude": "Conclude the inquiry, either by affirming, revising, or rejecting beliefs based on experience and reflection."}
     ]
 }
 
-Cartesianism = {
-    "Approach": "Cartesianism, following Rene Descartes' philosophy, emphasizes the role of reason and skepticism in the pursuit of knowledge.",
+marxist_approach = {
+    "Approach": "Marx's philosophy focuses on the critique of capitalism and the theory of historical materialism.",
     "Steps": [
-        {"1 - Apply Skepticism": "Apply skepticism to all beliefs, accepting only those that are certain."},
-        {"2 - Use Method of Doubt": "Apply the method of doubt to scrutinize all assumptions."},
-        {"3 - Determine Certainty": "Determine what can be known with certainty."},
-        {"4 - Apply Rational Analysis": "Apply rational analysis to construct knowledge from certain foundations."},
-        {"5 - Evaluate the Mind-Body Interaction": "Consider the problem from the dualistic perspective of mind and body."},
-        {"6 - Conclude": "Arrive at a reasoned conclusion that stands up to rigorous scrutiny and doubt."}
+        {"1 - Identify the Issue": "Identify the social or economic issue that is the focus of the discussion."},
+        {"2 - Analyze Class Relations": "Analyze the class relations and forces of production relevant to the issue."},
+        {"3 - Apply Historical Materialism": "Apply the theory of historical materialism, considering how economic conditions and class relations influence social structures and ideas."},
+        {"4 - Critique Capitalism": "Critique the role of capitalism in the issue, considering its effects on class struggle and alienation."},
+        {"5 - Reflect": "Reflect on the relationship between economic conditions, social structures, and individual experiences."},
+        {"6 - Conclude": "Conclude the inquiry, either by affirming, revising, or rejecting beliefs in light of Marxist critique."}
     ]
 }
 
-Spinozism = {
-    "Approach": "Spinozism, following Baruch Spinoza's philosophy, proposes a form of pantheism where God and the universe are one and the same.",
-    "Steps": [
-        {"1 - Recognize Unity": "Recognize the fundamental unity of God and the universe."},
-        {"2 - Discern Natural Laws": "Discern the natural laws that govern the universe."},
-        {"3 - Consider Freedom and Necessity": "Consider the balance between freedom and necessity in light of the problem."},
-        {"4 - Contemplate Ethical Implications": "Contemplate the ethical implications, guided by reason, of potential actions."},
-        {"5 - Reflect on the Divine": "Reflect on the divine nature inherent in all aspects of the problem."},
-        {"6 - Conclude": "Conclude with a course of action that respects the unity of God and the universe, and upholds rational ethics."}
-    ]
-}
-
-Empiricism = {
-    "Approach": "Empiricism, exemplified by John Locke's philosophy, emphasizes that all knowledge comes from sensory experience.",
-    "Steps": [
-        {"1 - Gather Observations": "Gather observations about the problem through the senses."},
-        {"2 - Analyze Sensory Data": "Analyze the sensory data and form ideas based on this data."},
-        {"3 - Construct Knowledge": "Construct knowledge about the problem from these ideas."},
-        {"4 - Test Conclusions": "Test the conclusions by making further observations."},
-        {"5 - Refine Understanding": "Refine your understanding of the problem based on this iterative process."},
-        {"6 - Conclude": "Arrive at a conclusion that is firmly grounded in empirical observation and experience."}
-    ]
-}
 
 PHILOSOPHERS = {
-    "Socratic Method": Socratic_Method["Steps"],
-    "Platonism": Platonism["Steps"],
-    "Aristotelianism" : Aristotelianism["Steps"],
-    "Confucianism": Confucianism["Steps"],
-    "Taoism": Taoism["Steps"],
-    "Epicureanism": Epicureanism["Steps"],
-    "Stoicism": Stoicism["Steps"],
-    "Neoplatonism": Neoplatonism["Steps"],
-    "Augustinianism": Augustinianism["Steps"],
-    "Thomism": Thomism["Steps"],
-    "Cartesianism": Cartesianism["Steps"],
-    "Spinozism": Spinozism["Steps"],
-    "Empiricism": Empiricism["Steps"],
+    "Socratic Method": socratic_method["Steps"],
+    "Platonism": platonism["Steps"],
+    "Aristotelianism" : aristotelian_approach["Steps"],
+    "Confucianism": confucian_approach["Steps"],
+    "Kantianism": kantian_approach["Steps"],
+    "Descartes' Method": descartes_approach["Steps"],
+    "Humean Empiricism": humean_approach["Steps"],
+    "Nietzscheanism": nietzschean_approach["Steps"],
+    "Lockean Empiricism": lockean_approach["Steps"],
+    "Marxism": marxist_approach["Steps"],
 }
