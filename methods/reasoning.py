@@ -169,7 +169,7 @@ historical_reasoning_detailed = {
     ]
 }
 
-REASONING_METHODS = {
+REASONING = {
     "Deductive": deductive_reasoning_detailed["steps"],
     "Inductive": inductive_reasoning_detailed["steps"],
     "Abductive": abductive_reasoning_detailed["steps"],
