@@ -1,5 +1,5 @@
 deductive_reasoning_detailed = {
-    "approach": "Starts with a general statement and concludes with a specific statement, ensuring the validity of the logic throughout.", 
+    "Approach": "Starts with a general statement and concludes with a specific statement, ensuring the validity of the logic throughout.", 
     "steps": [
         {"1. Identify General Premise": "Identify a general statement or premise that is known or assumed to be true."},
         {"2. Identify Specific Premise": "Identify a specific case or instance that falls under the category of the general premise."},
@@ -11,7 +11,7 @@ deductive_reasoning_detailed = {
 }
 
 inductive_reasoning_detailed = {
-    "approach": "Starts with specific observations and concludes with a general statement.", 
+    "Approach": "Starts with specific observations and concludes with a general statement.", 
     "steps": [
         {"1. Gather Specific Observations": "Observe a number of specific instances or occurrences."},
         {"2. Identify Common Pattern": "Look for a pattern or common trait among these instances."},
@@ -23,7 +23,7 @@ inductive_reasoning_detailed = {
 }
 
 abductive_reasoning_detailed = {
-    "approach": "Starts with an observation or set of observations and then seeks the simplest and most likely explanation.", 
+    "Approach": "Starts with an observation or set of observations and then seeks the simplest and most likely explanation.", 
     "steps": [
         {"1. Gather Observations": "Identify an incomplete set of observations or data."},
         {"2. Hypothesize Explanations": "Generate all plausible explanations for the observations."},
@@ -36,7 +36,7 @@ abductive_reasoning_detailed = {
 }
 
 analogical_reasoning_detailed = {
-    "approach": "Uses information or elements from a known domain (the analogue or source) to make inferences in an unknown domain (the target).", 
+    "Approach": "Uses information or elements from a known domain (the analogue or source) to make inferences in an unknown domain (the target).", 
     "steps": [
         {"1. Identify Known Domain": "Identify a situation or case that you understand well."},
         {"2. Identify Unknown Domain": "Identify a new, unfamiliar situation or case."},
@@ -49,7 +49,7 @@ analogical_reasoning_detailed = {
 }
 
 counterfactual_reasoning_detailed = {
-    "approach": "Involves considering alternatives to reality or 'what ifs'.", 
+    "Approach": "Involves considering alternatives to reality or 'what ifs'.", 
     "steps": [
         {"1. Identify Reality": "Understand the real situation or event."},
         {"2. Formulate Counterfactual": "Construct a hypothetical scenario where some conditions are altered."},
@@ -61,7 +61,7 @@ counterfactual_reasoning_detailed = {
 }
 
 causal_reasoning_detailed = {
-    "approach": "Involves identifying cause and effect relationships.", 
+    "Approach": "Involves identifying cause and effect relationships.", 
     "steps": [
         {"1. Identify Possible Causes and Effects": "Identify the event you're trying to explain and list possible causes."},
         {"2. Gather Evidence": "Gather evidence supporting or refuting each possible cause."},
@@ -74,7 +74,7 @@ causal_reasoning_detailed = {
 }
 
 moral_reasoning_detailed = {
-    "approach": "Involves determining right from wrong by applying ethical principles.", 
+    "Approach": "Involves determining right from wrong by applying ethical principles.", 
     "steps": [
         {"1. Identify Moral Question": "Identify the moral issue or dilemma."},
         {"2. Gather Information": "Gather all relevant information about the issue."},
@@ -87,21 +87,8 @@ moral_reasoning_detailed = {
     ]
 }
 
-statistical_reasoning_detailed = {
-    "approach": "Involves drawing conclusions or making decisions based on the analysis and interpretation of data.", 
-    "steps": [
-        {"1. Identify Question or Problem": "Determine the question or problem to be solved."},
-        {"2. Gather Data": "Collect data relevant to the problem or question."},
-        {"3. Analyze Data": "Perform statistical analysis on the data, including calculating measures of central tendency, dispersion, correlation, or conducting hypothesis testing, as appropriate."},
-        {"4. Draw Initial Conclusion": "Formulate an initial conclusion based on the statistical analysis."},
-        {"5. Consider Limitations": "Consider limitations of your data or analysis, including potential sources of bias or error."},
-        {"6. Refine Conclusion If Necessary": "If limitations significantly impact your conclusion, adjust your conclusion accordingly."},
-        {"7. Finalize Conclusion": "Finalize your conclusion after considering the analysis and any limitations."}
-    ]
-}
-
 reductive_reasoning_detailed = {
-    "approach": "Involves simplifying a complex issue into simpler components in order to understand it better.", 
+    "Approach": "Involves simplifying a complex issue into simpler components in order to understand it better.", 
     "steps": [
         {"1. Identify Complex Problem": "Identify the complex problem or issue to be solved."},
         {"2. Break Down Into Components": "Divide the complex problem into smaller, more manageable parts or components."},
@@ -114,7 +101,7 @@ reductive_reasoning_detailed = {
 }
 
 fallacious_reasoning_detailed = {
-    "approach": "Involves identifying and understanding flawed arguments.", 
+    "Approach": "Involves identifying and understanding flawed arguments.", 
     "steps": [
         {"1. Identify Argument": "Identify the argument or claim being made."},
         {"2. Evaluate Logical Structure": "Evaluate the logical structure of the argument to identify any obvious fallacies."},
@@ -128,7 +115,7 @@ fallacious_reasoning_detailed = {
 }
 
 diagnostical_reasoning_detailed = {
-    "approach": "Involves identifying the root cause of a problem or issue.", 
+    "Approach": "Involves identifying the root cause of a problem or issue.", 
     "steps": [
         {"1. Identify Problem": "Identify the problem or issue to be diagnosed."},
         {"2. Gather Information": "Collect all relevant information and data about the problem."},
@@ -142,7 +129,7 @@ diagnostical_reasoning_detailed = {
 }
 
 probabilistic_reasoning_detailed = {
-    "approach": "Involves predicting the likelihood of an event based on the knowledge of other events.", 
+    "Approach": "Involves predicting the likelihood of an event based on the knowledge of other events.", 
     "steps": [
         {"1. Identify Event": "Identify the event whose probability you want to predict."},
         {"2. Identify Relevant Factors": "Identify the factors that could potentially influence the event."},
@@ -156,7 +143,7 @@ probabilistic_reasoning_detailed = {
 }
 
 historical_reasoning_detailed = {
-    "approach": "Involves understanding the past in order to interpret the present and predict the future.", 
+    "Approach": "Involves understanding the past in order to interpret the present and predict the future.", 
     "steps": [
         {"1. Identify Historical Event or Period": "Identify the historical event or period you want to understand."},
         {"2. Gather Information": "Collect all available information about the event or period."},
@@ -177,8 +164,7 @@ REASONING = {
     "Counterfactual": counterfactual_reasoning_detailed["steps"],
     "Causal": causal_reasoning_detailed["steps"],
     "Moral": moral_reasoning_detailed["steps"],
-    "Statistical": statistical_reasoning_detailed["steps"],
-    "Reductive": reductive_reasoning_detailed["steps"],
+A   "Reductive": reductive_reasoning_detailed["steps"],
     "Fallacious": fallacious_reasoning_detailed["steps"],
     "Diagnostical": diagnostical_reasoning_detailed["steps"],
     "Probabilistic": probabilistic_reasoning_detailed["steps"],
