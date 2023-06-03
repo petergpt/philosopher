@@ -38,18 +38,17 @@ def main():
         thought_process = SCIENTISTS.get(selected_philosopher, [])
     elif option == 'Reasoning':
         selected_philosopher = st.selectbox("Select a Reasoning", reasoning_list)
-        selected_method = REASONING.get(selected_philosopher, {})
-        thought_process = selected_method.get("Thought_Process", [])
-        approach_description = selected_method.get("Approach", "")
+        thought_process = REASONING.get(selected_philosopher, [])
+        approach_description = ""  # Set an empty approach_description for the 'Reasoning' option
     else:
         selected_philosopher = ""
         thought_process = []
 
     with st.form(key="ask_the_question_form"):
         user_question = st.text_input("Type your question here:")
-    
+
         submit_button = st.form_submit_button("Ask the Question")
-    
+
     if submit_button and selected_philosopher:
         # Display the "Approach" paragraph
         st.subheader(f"{selected_philosopher}'s Approach")
