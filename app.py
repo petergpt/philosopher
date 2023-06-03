@@ -38,8 +38,9 @@ def main():
 
     user_question = st.text_input("Type your question here:")
 
-    if st.button("Ask the Philosopher or Scientist") and selected_philosopher:
-        api_response, final_answer = send_question_to_api(selected_philosopher, thought_process, user_question)
+    if st.button("Ask the Question") and selected_philosopher:
+        with st.spinner("Progressing... Please wait"):
+            api_response, final_answer = send_question_to_api(selected_philosopher, thought_process, user_question)
 
         st.subheader("Final Answer")
         st.write(final_answer)
