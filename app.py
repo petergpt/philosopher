@@ -42,9 +42,9 @@ def main():
 
     with st.form(key="ask_the_question_form"):
         user_question = st.text_input("Type your question here:")
-    
+
         submit_button = st.form_submit_button("Ask the Question")
-    
+
     if submit_button and selected_philosopher:
         with st.spinner("Progressing... Please wait"):
             api_response, final_answer = send_question_to_api(selected_philosopher, thought_process, user_question)
@@ -55,6 +55,8 @@ def main():
         st.subheader(f"{selected_philosopher}'s Thought Process")
         st.write(api_response)
 
+        st.markdown('<style>body { white-space: pre-wrap; }</style>', unsafe_allow_html=True)
+        st.write("""<button onclick="navigator.clipboard.writeText('""" + final_answer.replace("'", r"\'").replace('\n','\\n') + """')">Copy Answer to Clipboard</button>""", unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
