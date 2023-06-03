@@ -1,54 +1,60 @@
-import sys
 import os
+import sys
 
-import streamlit as st
 import numpy as np
+import pandas as pd
+import streamlit as st
 
 from api_handler import send_question_to_api
-from process_handler import process_user_input
-
 from philosophers import PHILOSOPHERS
 from funlosophers import FUNLOSOPHERS
 from scientists import SCIENTISTS
-
+from methods import reasoning
 
 def main():
+
     st.set_page_config(page_title="AI Philosopher")
     st.title("AI Philosopher - Ask Any Question")
+
+    options = ['Philosopher', 'Funlosopher', 'Scientist']
 
     philosophers_list = list(PHILOSOPHERS.keys())
     funlosophers_list = list(FUNLOSOPHERS.keys())
     scientists_list = list(SCIENTISTS.keys())
 
-    st.subheader("Choose a Philosopher, Funlosopher, or Scientist")
-    option = st.radio("", ['Philosopher', 'Funlosopher', 'Scientist'])
+    selection = st.selectbox("Explore", options)
 
-    if option == 'Philosopher':
-        selected_philosopher = st.selectbox("Select a Philosopher", philosophers_list)
-        thought_process = PHILOSOPHERS.get(selected_philosopher, [])
-    elif option == 'Funlosopher':
-        selected_philosopher = st.selectbox("Select a Funlosopher", funlosophers_list)
-        thought_process = FUNLOSOPHERS.get(selected_philosopher, [])
-    elif option == 'Scientist':
-        selected_philosopher = st.selectbox("Select a Scientist", scientists_list)
-        thought_process = SCIENTISTS.get(selected_philosopher, [])
+    if selection == 'Philosopher':
+        selected_option = st.selectbox("Select a Philosopher", [f"Philosopher: {philosopher}" for philosopher in philosophers_list])
+
+        philosopher, funlosopher, scientist, thought_process = reasoning.process_user_input(selected_option, PHILOSOPHERS, FUNLOSOPHERS, SCIENTISTS)
+
+    elif selection == 'Funlosopher':
+        selected_option = st.selectbox("Select a Funlosopher", [f"Funlosopher: {funlosopher}" for funlosopher in funlosophers_list])
+
+        philosopher, funlosopher, scientist, thought_process = reasoning.process_user_input(selected_option, PHILOSOPHERS, FUNLOSOPHERS, SCIENTISTS)
+
+    elif selection == 'Scientist':
+        selected_option = st.selectbox("Select a Scientist", [f"Scientist: {scientist}" for scientist in scientists_list])
+
+        philosopher, funlosopher, scientist, thought_process = reasoning.process_user_input(selected_option, PHILOSOPHERS, FUNLOSOPHERS, SCIENTISTS)
+
     else:
-        selected_philosopher = ""
+        philosopher, funlosopher, scientist = None, None, None
         thought_process = []
 
     with st.form(key="ask_the_question_form"):
         user_question = st.text_input("Type your question here:")
-    
         submit_button = st.form_submit_button("Ask the Question")
-    
-    if submit_button and selected_philosopher:
+
+    if submit_button and (philosopher or funlosopher or scientist):
         with st.spinner("Progressing... Please wait"):
-            api_response, final_answer = send_question_to_api(selected_philosopher, thought_process, user_question)
+            api_response, final_answer = send_question_to_api(philosopher, funlosopher, scientist, thought_process, user_question)
 
         st.subheader("Final Answer")
         st.write(final_answer)
 
-        st.subheader(f"{selected_philosopher}'s Thought Process")
+        st.subheader("Thought Process")
         st.write(api_response)
 
 
