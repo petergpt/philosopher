@@ -42,8 +42,9 @@ def main():
         approach_description = thought_process['Approach'] if thought_process else ""
     elif option == 'Reasoning':
         selected_philosopher = st.selectbox("Select a Reasoning", reasoning_list)
-        thought_process = REASONING.get(selected_philosopher, [])
-        approach_description = thought_process[0]['Approach'] if thought_process else ""
+        selected_method = REASONING.get(selected_philosopher, {})
+        thought_process = selected_method.get("Steps", [])
+        approach_description = selected_method.get("Approach", "")
     else:
         selected_philosopher = ""
         thought_process = []
