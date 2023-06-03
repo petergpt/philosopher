@@ -124,14 +124,14 @@ marxist_approach = {
 
 
 PHILOSOPHERS = {
-    "Socratic Method": socratic_method["Steps"],
-    "Platonism": platonic_approach["Steps"],
-    "Aristotelianism" : aristotelian_approach["Steps"],
-    "Confucianism": confucian_approach["Steps"],
-    "Kantianism": kantian_approach["Steps"],
-    "Descartes' Method": descartes_approach["Steps"],
-    "Humean Empiricism": humean_approach["Steps"],
-    "Nietzscheanism": nietzschean_approach["Steps"],
-    "Lockean Empiricism": lockean_approach["Steps"],
-    "Marxism": marxist_approach["Steps"],
+    "Socrates": socratic_method["Steps"],
+    "Plato": platonic_approach["Steps"],
+    "Aristotel" : aristotelian_approach["Steps"],
+    "Confucius": confucian_approach["Steps"],
+    "Kant": kantian_approach["Steps"],
+    "Descart": descartes_approach["Steps"],
+    "Hume": humean_approach["Steps"],
+    "Nietzsche": nietzschean_approach["Steps"],
+    "Locke": lockean_approach["Steps"],
+    "Marx": marxist_approach["Steps"],
 }
