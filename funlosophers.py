@@ -1,27 +1,3 @@
-Nikeism = {
-    "Approach": "Nikeism, inspired by the brand's slogan 'Just Do It', emphasizes action and motivation.",
-    "Steps": [
-        {"1 - Identify Goal": "Identify the goal or objective."},
-        {"2 - Overcome Hesitation": "Overcome any hesitation or doubt."},
-        {"3 - Embrace Challenge": "Embrace the challenge ahead."},
-        {"4 - Trust in Potential": "Trust in your own potential and capabilities."},
-        {"5 - Just Do It": "Take action towards your goal."},
-        {"6 - Conclude": "Reflect on the results of your action, learning and growing for the future."}
-    ]
-}
-
-HakunaMatataism = {
-    "Approach": "Hakuna Matataism, inspired by 'The Lion King', promotes a worry-free philosophy of life.",
-    "Steps": [
-        {"1 - Identify Worries": "Identify any worries or concerns."},
-        {"2 - Embrace 'Hakuna Matata'": "Embrace 'Hakuna Matata' - no worries."},
-        {"3 - Live in the Moment": "Focus on living in the present moment."},
-        {"4 - Learn from the Past": "Learn from the past without being burdened by it."},
-        {"5 - Look Forward to the Future": "Look forward to the future without worrying about it."},
-        {"6 - Conclude": "Continue living a worry-free life, learning and growing along the way."}
-    ]
-}
-
 Yodaism = {
     "Approach": "Yodaism, inspired by Yoda from 'Star Wars', emphasizes wisdom, patience, and the Force.",
     "Steps": [
@@ -31,54 +7,6 @@ Yodaism = {
         {"4 - Reflect on Failure": "Remember, 'The greatest teacher, failure is.'"},
         {"5 - Learn and Grow": "Use every experience as an opportunity to learn and grow."},
         {"6 - Conclude": "Move forward with wisdom and the power of the Force."}
-    ]
-}
-
-Dumbledoreism = {
-    "Approach": "Dumbledoreism, inspired by Albus Dumbledore from 'Harry Potter', emphasizes love, wisdom, and the courage to do what's right.",
-    "Steps": [
-        {"1 - Identify Issue": "Identify the issue or dilemma."},
-        {"2 - Choose Love": "Choose to act with love and kindness."},
-        {"3 - Apply Wisdom": "Apply wisdom and learning to your decision."},
-        {"4 - Be Brave": "Have the courage to do what is right, not what is easy."},
-        {"5 - Value People": "Value people for their qualities, not their abilities."},
-        {"6 - Conclude": "Make a decision that reflects love, wisdom, and bravery."}
-    ]
-}
-
-Gandalfism = {
-    "Approach": "Gandalfism, inspired by Gandalf from 'The Lord of the Rings', emphasizes wisdom, bravery, and the importance of small acts of kindness.",
-    "Steps": [
-        {"1 - Identify Problem": "Identify the problem or challenge."},
-        {"2 - Use Wisdom": "Use wisdom and knowledge to consider the problem."},
-        {"3 - Show Bravery": "Show bravery in the face of adversity."},
-        {"4 - Small Acts Matter": "Remember that small acts of kindness and love can have great impacts."},
-        {"5 - Believe in Others": "Believe in the potential of others, even if they don't believe in themselves."},
-        {"6 - Conclude": "Make a decision that reflects wisdom, bravery, and the power of kindness."}
-    ]
-}
-
-Pizzaism = {
-    "Approach": "Pizzaism, inspired by the universal love for pizza, advocates for diversity, harmony, and the joy of sharing.",
-    "Steps": [
-        {"1 - Recognize Diversity": "Recognize the diversity of ingredients (perspectives)."},
-        {"2 - Achieve Balance": "Achieve a balance of flavors (ideas)."},
-        {"3 - Appreciate Unity": "Appreciate the unity that comes when all ingredients are baked together."},
-        {"4 - Share Your 'Pizza'": "Share your 'pizza' (results, benefits) with others."},
-        {"5 - Enjoy the Process": "Enjoy the process, not just the end result."},
-        {"6 - Conclude": "Celebrate the diversity, unity, and joy that resulted from your decision."}
-    ]
-}
-
-Barbieism = {
-    "Approach": "Barbieism, inspired by the popular doll's slogan 'You can be anything', promotes self-confidence, versatility, and limitless potential.",
-    "Steps": [
-        {"1 - Identify Goal": "Identify your goal or aspiration."},
-        {"2 - Believe in Yourself": "Believe in your ability to achieve your goal."},
-        {"3 - Embrace Versatility": "Embrace the versatility in your skills and abilities."},
-        {"4 - Overcome Obstacles": "Identify and overcome any obstacles in your way."},
-        {"5 - Persist": "Persist until you achieve your goal."},
-        {"6 - Conclude": "Celebrate your ability to be anything you aspire to be."}
     ]
 }
 
@@ -106,18 +34,6 @@ Spongebobism = {
     ]
 }
 
-WillyWonkaism = {
-    "Approach": "WillyWonkaism, inspired by the magical chocolatier from 'Charlie and the Chocolate Factory', encourages imagination, innovation, and a sprinkle of the unexpected.",
-    "Steps": [
-        {"1 - Envision the Extraordinary": "Envision the extraordinary and stretch the limits of your imagination."},
-        {"2 - Embrace Innovation": "Embrace innovation, even if it seems a bit eccentric."},
-        {"3 - Include the Unexpected": "Include elements of surprise and the unexpected."},
-        {"4 - Prioritize Joy": "Prioritize joy and delight in your approach."},
-        {"5 - Learn from Mistakes": "Learn from your mistakes, even if they result in blueberry children or shrinking candy."},
-        {"6 - Conclude": "Create a world of pure imagination, where dreams become reality."}
-    ]
-}
-
 SherlockHolmesism = {
     "Approach": "SherlockHolmesism, inspired by the great detective Sherlock Holmes, emphasizes observation, deduction, and intellectual rigor.",
     "Steps": [
@@ -130,17 +46,6 @@ SherlockHolmesism = {
     ]
 }
 
-SuperMarioism = {
-    "Approach": "SuperMarioism, inspired by Super Mario, promotes perseverance, adventure, and the pursuit of your goals (or Princess Peach).",
-    "Steps": [
-        {"1 - Set Your Goal": "Set your goal, whether it's to save Princess Peach or conquer a difficult level."},
-        {"2 - Embrace Adventure": "Embrace the adventure and the challenges that come with it."},
-        {"3 - Power Up": "Use 'power ups' and resources to help you on your journey."},
-        {"4 - Persevere": "Persevere, no matter how many times you might fall."},
-        {"5 - Learn from Experience": "Learn from each experience to help you navigate future challenges."},
-        {"6 - Conclude": "Celebrate your victory (and rescue Princess Peach!) until the next adventure awaits."}
-    ]
-}
 Vaderism = {
     "Approach": "Vaderism, inspired by Darth Vader from 'Star Wars', emphasizes power, control, and the seductive allure of the dark side.",
     "Steps": [
@@ -176,6 +81,7 @@ LordVoldemortism = {
         {"6 - Conclude": "Preserve your power and control, no matter the cost."}
     ]
 }
+
 PeppaPigism = {
     "Approach": "PeppaPigism, inspired by Peppa Pig, promotes curiosity, fun, and the importance of family and friends.",
     "Steps": [
@@ -188,17 +94,6 @@ PeppaPigism = {
     ]
 }
 
-Teletubbiesism = {
-    "Approach": "Teletubbiesism, inspired by the Teletubbies, emphasizes playfulness, friendship, and the joy of simple pleasures.",
-    "Steps": [
-        {"1 - Embrace Playfulness": "Embrace playfulness and a joyful attitude."},
-        {"2 - Value Friendship": "Value friendship and mutual support."},
-        {"3 - Delight in Simplicity": "Delight in the simplicity of everyday pleasures."},
-        {"4 - Communicate Creatively": "Communicate creatively, even if it's not through traditional means."},
-        {"5 - Enjoy the Magic": "Enjoy the magic in the world around you."},
-        {"6 - Conclude": "Celebrate your unique self and the joyful magic of existence."}
-    ]
-}
 Beyonceism = {
     "Approach": "Beyonceism, inspired by Beyoncé, encourages self-confidence, empowerment, and the pursuit of excellence.",
     "Steps": [
@@ -223,37 +118,15 @@ TaylorSwiftism = {
     ]
 }
 
-Bieberism = {
-    "Approach": "Bieberism, inspired by Justin Bieber, emphasizes growth, resilience, and the power of redemption.",
-    "Steps": [
-        {"1 - Pursue Your Dreams": "Pursue your dreams with determination."},
-        {"2 - Show Resilience": "Show resilience in the face of adversity."},
-        {"3 - Learn from Mistakes": "Learn from your mistakes and seek to grow."},
-        {"4 - Seek Redemption": "Seek redemption when necessary, acknowledging past faults."},
-        {"5 - Celebrate Love": "Celebrate love in all its forms."},
-        {"6 - Conclude": "Continue to evolve and grow, acknowledging the power of change."}
-    ]
-}
-
 FUNLOSOPHERS = {
-    "Nikeism": Nikeism["Steps"],
-    "HakunaMatataism": HakunaMatataism["Steps"],
-    "Yodaism": Yodaism["Steps"],
-    "Dumbledoreism": Dumbledoreism["Steps"],
-    "Gandalfism": Gandalfism["Steps"],
-    "Pizzaism": Pizzaism["Steps"],
-    "Barbieism": Barbieism["Steps"],
-    "ScroogeMcDuckism": ScroogeMcDuckism["Steps"],
-    "Spongebobism": Spongebobism["Steps"],
-    "WillyWonkaism": WillyWonkaism["Steps"],
-    "SherlockHolmesism": SherlockHolmesism["Steps"],
-    "SuperMarioism": SuperMarioism["Steps"],
-    "Vaderism": Vaderism["Steps"],
-    "Jokerism": Jokerism["Steps"],
-    "LordVoldemortism": LordVoldemortism["Steps"],
-    "PeppaPigism": PeppaPigism["Steps"],
-    "Teletubbiesism": Teletubbiesism["Steps"],
-    "Beyonceism": Beyonceism["Steps"],
-    "TaylorSwiftism": TaylorSwiftism["Steps"],
-    "Bieberism": Bieberism["Steps"], 
+    "Yoda": Yodaism["Steps"],
+    "Scrooge McDuck": ScroogeMcDuckism["Steps"],
+    "SpongeBob": Spongebobism["Steps"],
+    "Sherlock Holmes": SherlockHolmesism["Steps"],
+    "Darth Vader": Vaderism["Steps"],
+    "Joker": Jokerism["Steps"],
+    "Lord Voldemort": LordVoldemortism["Steps"],
+    "Peppa Pig": PeppaPigism["Steps"],
+    "Beyonce": Beyonceism["Steps"],
+    "Taylor Swift": TaylorSwiftism["Steps"],
 }
