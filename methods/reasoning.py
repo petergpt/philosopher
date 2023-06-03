@@ -157,16 +157,17 @@ historical_reasoning_detailed = {
 }
 
 REASONING = {
-    "Deductive": deductive_reasoning_detailed["steps"],
-    "Inductive": inductive_reasoning_detailed["steps"],
-    "Abductive": abductive_reasoning_detailed["steps"],
-    "Analogical": analogical_reasoning_detailed["steps"],
-    "Counterfactual": counterfactual_reasoning_detailed["steps"],
-    "Causal": causal_reasoning_detailed["steps"],
-    "Moral": moral_reasoning_detailed["steps"],
-    "Reductive": reductive_reasoning_detailed["steps"],
-    "Fallacious": fallacious_reasoning_detailed["steps"],
-    "Diagnostical": diagnostical_reasoning_detailed["steps"],
-    "Probabilistic": probabilistic_reasoning_detailed["steps"],
-    "Historical": historical_reasoning_detailed["steps"],
+    "Deductive": deductive_reasoning_detailed["Steps"],
+    "Inductive": inductive_reasoning_detailed["Steps"],
+    "Abductive": abductive_reasoning_detailed["Steps"],
+    "Analogical": analogical_reasoning_detailed["Steps"],
+    "Counterfactual": counterfactual_reasoning_detailed["Steps"],
+    "Causal": causal_reasoning_detailed["Steps"],
+    "Moral": moral_reasoning_detailed["Steps"],
+    "Reductive": reductive_reasoning_detailed["Steps"],
+    "Fallacious": fallacious_reasoning_detailed["Steps"],
+    "Diagnostical": diagnostical_reasoning_detailed["Steps"],
+    "Probabilistic": probabilistic_reasoning_detailed["Steps"],
+    "Historical": historical_reasoning_detailed["Steps"],
+}
 }
