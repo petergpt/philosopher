@@ -125,7 +125,7 @@ marxist_approach = {
 
 PHILOSOPHERS = {
     "Socratic Method": socratic_method["Steps"],
-    "Platonism": platonism["Steps"],
+    "Platonism": platonic_approach["Steps"],
     "Aristotelianism" : aristotelian_approach["Steps"],
     "Confucianism": confucian_approach["Steps"],
     "Kantianism": kantian_approach["Steps"],
