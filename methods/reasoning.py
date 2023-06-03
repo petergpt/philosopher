@@ -170,4 +170,3 @@ REASONING = {
     "Probabilistic": probabilistic_reasoning_detailed["Steps"],
     "Historical": historical_reasoning_detailed["Steps"],
 }
-}
