@@ -53,7 +53,9 @@ def main():
             api_response, final_answer = send_question_to_api(selected_philosopher, thought_process, user_question)
 
         st.subheader("Final Answer")
-        st.write(final_answer)
+
+        final_answer_cleaned = final_answer.split(":", 1)[-1].strip()
+        st.write(final_answer_cleaned)
 
         st.subheader(f"{selected_philosopher}'s Thought Process")
         st.write(api_response)
