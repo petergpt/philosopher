@@ -26,33 +26,22 @@ def main():
     option = st.radio("", ['Philosopher', 'Funlosopher', 'Scientist', 'Reasoning'])
 
     thought_process = None
-    approach_description = None
 
     if option == 'Philosopher':
         selected_philosopher = st.selectbox("Select a Philosopher", philosophers_list)
         thought_process = PHILOSOPHERS.get(selected_philosopher, [])
-        approach_description = thought_process['Approach'] if thought_process else ""
     elif option == 'Funlosopher':
         selected_philosopher = st.selectbox("Select a Funlosopher", funlosophers_list)
         thought_process = FUNLOSOPHERS.get(selected_philosopher, [])
-        approach_description = thought_process['Approach'] if thought_process else ""
     elif option == 'Scientist':
         selected_philosopher = st.selectbox("Select a Scientist", scientists_list)
         thought_process = SCIENTISTS.get(selected_philosopher, [])
-        approach_description = thought_process['Approach'] if thought_process else ""
     elif option == 'Reasoning':
         selected_philosopher = st.selectbox("Select a Reasoning", reasoning_list)
-        selected_method = REASONING.get(selected_philosopher, {})
-        thought_process = selected_method.get("Steps", [])
-        approach_description = selected_method.get("Approach", "")
+        thought_process = REASONING.get(selected_philosopher, [])
     else:
         selected_philosopher = ""
         thought_process = []
-
-    # Display the "Approach" paragraph
-    if approach_description:
-        st.subheader(f"{selected_philosopher}'s Approach")
-        st.write(approach_description)
 
     with st.form(key="ask_the_question_form"):
         user_question = st.text_input("Type your question here:")
